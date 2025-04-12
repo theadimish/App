@@ -1,0 +1,22 @@
+services:  
+  
+  - type: web  
+    name: foodie-backend  
+    env: python  
+    buildCommand: "pip install -r requirements.txt"  
+    startCommand: "python main.py"  
+    envVars:  
+      - key: PORT  
+        value: 10000  
+    plan: free  
+    autoDeploy: true  
+    rootDir: Backend  
+  
+  - type: web  
+    name: foodie-frontend  
+    env: static  
+    buildCommand: "npm install && npm run build"  
+    staticPublishPath: dist  
+    rootDir: Frontend  
+    plan: free  
+    autoDeploy: true 
