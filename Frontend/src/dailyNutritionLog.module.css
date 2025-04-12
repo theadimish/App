@@ -1,0 +1,56 @@
+.dailyNutritionLog {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-sizing: border-box;
+  }
+  
+  .heading {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .tableWrapper {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .nutritionTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    min-width: 500px; /* Ensures the table doesn't squeeze too much */
+  }
+  
+  .nutritionTable th,
+  .nutritionTable td {
+    padding: 0.75rem 1rem;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+  }
+  
+  .nutritionTable th {
+    background-color: #4caf50;
+    color: white;
+    font-weight: 600;
+  }
+  
+  
+  /* Responsive for smaller screens */
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 1.4rem;
+    }
+  
+    .nutritionTable {
+      font-size: 0.9rem;
+    }
+  
+    .nutritionTable th,
+    .nutritionTable td {
+      padding: 0.5rem;
+    }
+  }
+  

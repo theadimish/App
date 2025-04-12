@@ -1,0 +1,135 @@
+[
+  {
+    "name": "beetroot",
+    "calories": 43,
+    "protein": 1.6,
+    "carbs": 10,
+    "fat": 0.2
+  },
+  {
+    "name": "bhindi",
+    "calories": 60,
+    "protein": 2,
+    "carbs": 11,
+    "fat": 2
+  },
+  {
+    "name": "burger",
+    "calories": 350,
+    "protein": 15,
+    "carbs": 30,
+    "fat": 20
+  },
+  {
+    "name": "butterchicken",
+    "calories": 450,
+    "protein": 30,
+    "carbs": 10,
+    "fat": 30
+  },
+  {
+    "name": "chapatti",
+    "calories": 100,
+    "protein": 3,
+    "carbs": 18,
+    "fat": 2
+  },
+  {
+    "name": "cholebhature",
+    "calories": 450,
+    "protein": 12,
+    "carbs": 50,
+    "fat": 22
+  },
+  {
+    "name": "cholekulche",
+    "calories": 400,
+    "protein": 14,
+    "carbs": 45,
+    "fat": 15
+  },
+  {
+    "name": "dal",
+    "calories": 180,
+    "protein": 9,
+    "carbs": 25,
+    "fat": 6
+  },
+  {
+    "name": "dosa",
+    "calories": 160,
+    "protein": 3,
+    "carbs": 30,
+    "fat": 4
+  },
+  {
+    "name": "eggcurry",
+    "calories": 220,
+    "protein": 13,
+    "carbs": 8,
+    "fat": 15
+  },
+  {
+    "name": "fish",
+    "calories": 200,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 12
+  },
+  {
+    "name": "friedrice",
+    "calories": 300,
+    "protein": 6,
+    "carbs": 40,
+    "fat": 12
+  },
+  {
+    "name": "idli",
+    "calories": 70,
+    "protein": 2,
+    "carbs": 12,
+    "fat": 1
+  },
+  {
+    "name": "manchurian",
+    "calories": 250,
+    "protein": 5,
+    "carbs": 20,
+    "fat": 18
+  },
+  {
+    "name": "paneer",
+    "calories": 260,
+    "protein": 14,
+    "carbs": 6,
+    "fat": 20
+  },
+  {
+    "name": "pasta",
+    "calories": 350,
+    "protein": 10,
+    "carbs": 50,
+    "fat": 12
+  },
+  {
+    "name": "pizza",
+    "calories": 300,
+    "protein": 12,
+    "carbs": 33,
+    "fat": 13
+  },
+  {
+    "name": "rajma",
+    "calories": 210,
+    "protein": 8,
+    "carbs": 30,
+    "fat": 6
+  },
+  {
+    "name": "frenchfries",
+    "calories": 365,
+    "protein": 3,
+    "carbs": 45,
+    "fat": 17
+  }
+]

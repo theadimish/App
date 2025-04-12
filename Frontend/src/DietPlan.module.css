@@ -1,0 +1,60 @@
+.wrapper {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #00796b;
+    margin-bottom: 30px;
+  }
+  
+  .planContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+  }
+  
+  .planCard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-left: 6px solid #00796b;
+  }
+  
+  .planCard h2 {
+    margin-top: 0;
+    color: #004d40;
+  }
+  
+  .sectionTitle {
+    font-weight: bold;
+    color: #00695c;
+    margin-top: 20px;
+  }
+  
+  .item {
+    padding-left: 15px;
+    margin: 5px 0;
+  }
+  
+  .summary {
+    background-color: #e0f2f1;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-top: 15px;
+  }
+  
+  .summary p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .wrapper {
+      padding: 20px;
+    }
+  }

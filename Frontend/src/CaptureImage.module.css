@@ -1,0 +1,91 @@
+.captureImage {
+  width:500px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 12px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.analysisSection{
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.heading {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.subtext {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.uploadButton{
+  margin-top: 9px;
+  height: 1.5rem;
+}
+
+.captureButton,.uploadButton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.captureButton:hover,
+.uploadButton:hover {
+  background-color: #45a049;
+}
+
+.webcamContainer {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.previewSection {
+  margin-top: 2rem;
+}
+
+.imagePreview {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .subtext {
+    font-size: 0.95rem;
+  }
+
+  .captureButton,
+  .uploadButton {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
+}

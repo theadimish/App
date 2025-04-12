@@ -1,0 +1,109 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  background-color: #f9f9f9;
+}
+
+.navbarSection {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.cardsSection {
+  padding: 2rem 4vw;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.appMain {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 4vw;
+  box-sizing: border-box;
+}
+
+.captureSection,
+.logSection,
+.bmiSection,
+.dietPlanSection,
+.communitySection {
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.captureSection:hover,
+.logSection:hover,
+.bmiSection:hover,
+.dietPlanSection:hover,
+.communitySection:hover {
+  transform: translateY(-5px);
+}
+
+.appFooter {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: auto;
+  width: 100%;
+}
+
+.appFooter nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.appFooter nav ul li {
+  margin: 0 1.5rem;
+}
+
+.appFooter nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.appFooter nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .cardsSection,
+  .appMain {
+    padding: 1rem;
+  }
+
+  .appMain {
+    flex-direction: column;
+  }
+
+  .captureSection,
+  .logSection,
+  .bmiSection,
+  .dietPlanSection,
+  .communitySection {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .appFooter nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

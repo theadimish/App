@@ -1,0 +1,80 @@
+.box {
+    width: 100%;
+    max-width: 562px;
+    background: transparent;
+    margin: 30px auto;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.ff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.inp {
+    width: 260px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.submitbotton {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitbotton:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2c3e50;
+    animation: fadeIn 0.3s ease;
+}
+
+/* Optional animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive Fixes */
+@media (max-width: 600px) {
+    .box {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .inp,
+    .submitbotton {
+        width: 100%;
+        margin: 0;
+    }
+
+    .ff {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .message {
+        margin-top: 12px;
+    }
+}
