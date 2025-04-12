@@ -7,7 +7,6 @@ importlib_metadata==8.6.1
 itsdangerous==2.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.2
-PyAudio==0.2.11  # this version is often more compatible
 PyQt5==5.15.9
 pyqt5-plugins==5.15.9.2.3
 PyQt5-Qt5==5.15.2
